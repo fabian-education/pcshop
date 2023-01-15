@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PC Shop
+        </title>
+
+        <link rel="stylesheet" href="design.css">
+        <script src="functions.js"></script>
+        <link rel="icon" href="../images/favicon-16x16.png" sizes="16x16">
+    </head>
+    <body>
+        <img src="../images/logo.png" onclick="home()">
+        <ul class="list_right">
+            <li id="shopping_cart" type="button" onclick="cart()"><img src="../images/shopping_cart.png" alt="shopping cart" width="29" height="24"></li>
+            <li id="headbar" type="button" onclick="home()">Home</li>
+            <li id="headbar" type="button" onclick="pc_builder()">PC Builder</li>
+            <li id="headbar" type="button" onclick="about_us()">About us</li>
+        </ul>
+
+        <h1>
+            About us
+        </h1>
+        <p class="slogan">
+            Created with life in mind
+        </p>
+        <video controls autoplay muted>
+            <source src="../videos/about_us_video.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PC Shop
+        </title>
+
+        <link rel="stylesheet" href="design.css">
+        <script src="../jquery/jquery.js"></script>
+        <script src="functions.js"></script>
+        <link rel="icon" href="../images/favicon-16x16.png" sizes="16x16">
+    </head>
+    <body>
+        <img src="../images/logo.png" onclick="home()">
+        
+        <ul class="list_right">
+            <li id="shopping_cart" type="button" onclick="cart()"><img src="../images/shopping_cart.png" alt="shopping cart" width="29" height="24"></li>
+            <li id="headbar" type="button" onclick="home()">Home</li>
+            <li id="headbar" type="button" onclick="pc_builder()">PC Builder</li>
+            <li id="headbar" type="button" onclick="about_us()">About us</li>
+        </ul>
+
+        <h3 style="color:white">
+            Your Cart:
+        </h3>
+
+        <table class="cart_table" style="width:50%" id="cart_table">
+            <tr>
+                <th class="cart_header_items">Product</th>
+                <th class="cart_header_items">Price</th>
+                <th class="cart_header_items" style="width:12px">Remove</th>
+            </tr>
+        </table>
+        <h2><button id="buy" onclick="buy()" type="button">Buy</button></h2>
+        <script>show_cart_items()</script>
+
+        
+
+    </body>
+</html>
