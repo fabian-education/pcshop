@@ -1,6 +1,9 @@
 # pcshop
 Projekt Unternehmensgründung
 
+Live Demo:
+- http://193.111.199.170/pcshop/
+
 Requirements:
 - Apache
 - Mysql Database
