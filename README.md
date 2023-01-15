@@ -2,6 +2,7 @@
 Projekt Unternehmensgründung
 
 Requirements:
+- Apache
 - Mysql Database
 - PHP8
 - PHP Composer with gmp extension
