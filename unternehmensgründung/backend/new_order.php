@@ -91,7 +91,7 @@ Please don't reply to this mail.
 Kind regards,
 PC Shop";
 
-    $headers = "From:noreply@193.111.199.170";
+    $headers = "From:noreply@pcshop.fubs.ohaa.xyz";
     // send email
     mail($mail, $subject, $msg, $headers);
 
