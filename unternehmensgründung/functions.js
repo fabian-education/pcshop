@@ -99,7 +99,7 @@ function get_host() {
     var host = window.location.host;
     //console.log(host);
 
-    if (host != "193.111.199.170") {
+    if (host != "pcshop.fubs.ohaa.xyz") {
         document.getElementById("reminder").style.display = "block"
     }
 }
