@@ -1,14 +1,10 @@
 
 function cart() {
     window.location.replace('cart');
-    //window.location.replace('about_us.html');
 }
 
 function home() {
     window.location.replace('/');
-    //var element = document.body;
-    //element.classList.toggle("dark-mode");
-
 }
 
 function pc_builder() {
@@ -17,7 +13,6 @@ function pc_builder() {
 
 function about_us() {
     window.location.replace('about_us');
-    //window.location.replace('about_us.html');
 }
 
 function gaming() {
