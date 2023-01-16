@@ -2,7 +2,7 @@
 Projekt Unternehmensgründung
 
 Live Demo:
-- http://193.111.199.170/pcshop/
+- https://pcshop.fubs.ohaa.xyz
 
 Requirements:
 - Apache
