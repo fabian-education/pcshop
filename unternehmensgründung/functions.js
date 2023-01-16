@@ -5,7 +5,7 @@ function cart() {
 }
 
 function home() {
-    window.location.replace('../pcshop');
+    window.location.replace('/');
     //var element = document.body;
     //element.classList.toggle("dark-mode");
 
