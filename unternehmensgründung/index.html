@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="design.css">
+        <script src="functions.js"></script>
+        <link rel="icon" href="images/favicon-16x16.png" sizes="16x16">
+
+        <title>
+            PC Shop
+        </title>
+        
+        
+    </head>
+
+    <body>
+        <mark id="reminder"><a href="https://pcshop.fubs.ohaa.xyz" style="color: white;">You are on the local version, some functions may not work. Click for redirect.</a></mark>
+        <script>get_host()</script>
+        <mark id="init_message"></mark>
+        <script>init()</script>
+        <img src="images/logo.png" onclick="home()">
+        <ul class="list_right">
+            <li id="shopping_cart" type="button" onclick="cart()"><img src="images/shopping_cart.png" alt="shopping cart" width="29" height="24"></li>
+            <li id="headbar" type="button" onclick="home()">Home</li>
+            <li id="headbar" type="button" onclick="pc_builder()">PC Builder</li>
+            <li id="headbar" type="button" onclick="about_us()">About us</li>
+        </ul>
+
+        <header>
+            <h1>
+                PC Shop
+            </h1>
+            <h4>Get quality products for a good price!</h4>
+        </header>
+
+
+        <div class="category_div" id="categories">
+            <ul id="category_list">
+                <li><button type="button" id="gaming_button" onclick="gaming()">Gaming</button></li>
+                <li><button type="button" id="work_button" onclick="work()">Work</button></li>
+                <li><button type="button" id="server_button" onclick="server()">Server</button></li>
+            </ul>
+        </div>
+
+
+        <div id="gaming" style="display:none;">
+            <img src="images/gaming.png" alt="Gaming PC" id="img001">
+            <div class="move_text">
+
+                <ul class="product_text">
+                    <li><h3>Newest Generation</h3></li>
+                    <li>Intel Core i9-13900KF</li>
+                    <li>24/32 Cores/Threads</li>
+                    <li>3-5,8 GHz</li>
+                    <li>16 GB Ram</li>
+                    <li>1 TB Storage</li>
+                    <li>RTX 4090</li>
+                </ul>
+
+            </div>
+
+            <h2><button class="buy_product" type="button" id="101" onclick="buy(this.id)">Only $1700</button></h2>
+
+        </div>
+
+
+        <div id="work" style="display:none;">
+            <img src="images/work.png" alt="Office PC" id="img002">
+            <div class="move_text">
+                <ul class="product_text">
+                    <li><h3>Great for Work</h3></li>
+                    <li><h4>Big battery</h4></li>
+                    <li>Intel Core i7-11700K</li>
+                    <li>8/16 Cores/Threads</li>
+                    <li>3,6-5 GHz</li>
+                    <li>Integrated graphics</li>
+                    <li>16 GB Ram</li>
+                    <li>500 GB Storage</li>
+                </ul>
+            </div>
+            
+            <h2><button class="buy_product" type="button" id="201" onclick="buy(this.id)">Only $800</button></h2>
+
+        </div>
+
+
+        <div id="server" style="display:none;">
+            <img src="images/server.png" alt="Server" id="img003" class="center">
+            
+            <div class="move_text">
+
+                <ul class="product_text">
+                    <li><h3>DELL R430 8SFF</h3></li>
+                    <li>2x Intel Xeon E5-2680 v4</li>
+                    <li>2x 14/28 Cores/Threads</li>
+                    <li>2,4-3,3 GHz</li>
+                    <li>256 GB Ram</li>
+                    <li>8 TB Storage</li>
+                </ul>
+            </div>
+
+            <h2><button class="buy_product" type="button" id="301" onclick="buy(this.id)">Only $1100</button></h2>
+
+        </div>
+
+
+
+        <div id="work" style="display:none;" class="work">Work</div>
+
+        <div id="server" style="display:none;" class="server">Server</div>
+
+
+
+    </body>
+</html>
