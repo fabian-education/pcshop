@@ -19,6 +19,3 @@ Python Requirements:
 Linux setup:
 - Enable legacy hash types: 
 https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python
-
-Highly recommended:
-- make backend folder private
