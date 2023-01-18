@@ -11,12 +11,12 @@ function new_mail($mail_address, $name, $address) {
     $mail->IsSMTP();
     $mail->CharSet = 'UTF-8';
     
-    $mail->Host       = "smtp-relay.sendinblue.com";
+    $mail->Host       = "host";
     $mail->SMTPDebug  = 2;
     $mail->SMTPAuth   = true;
     $mail->Port       = 587;
-    $mail->Username   = "julian.meier63@gmail.com";
-    $mail->Password   = "yj653vpdEKc4907h";
+    $mail->Username   = "your mail";
+    $mail->Password   = "smtp key";
     
     $mail->isHTML(true);
     $mail->Subject = 'Thank you for purchasing!';
