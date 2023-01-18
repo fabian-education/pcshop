@@ -1,3 +1,0 @@
-hdwallet
-bit
-mysql-connector
